@@ -10,6 +10,8 @@ class ApiHelper {
     private val baseUrl = "http://45.144.179.101/scare-me/api/mobile/v1"
     private val client = OkHttpClient()
 
+    var token: String = Auth().token
+
     fun signUp(
         email: String,
         password: String,
@@ -38,6 +40,26 @@ class ApiHelper {
 
         })
 
+    }
+
+    fun chat(onResponse: OnResponseCallback, onFailure: OnFailureCallback? = null) {
+
+        val request = Request.Builder()
+            .url("$baseUrl/chat")
+            .addHeader("Authorization", "Bearer $token")
+            .get()
+            .build()
+
+        client.newCall(request).enqueue(object: Callback {
+            override fun onFailure(call: Call, e: IOException) {
+                onFailure?.onFailure(e)
+            }
+
+            override fun onResponse(call: Call, response: Response) {
+                onResponse.onResponse(response)
+            }
+
+        })
     }
 }
 

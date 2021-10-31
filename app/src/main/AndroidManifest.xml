@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MADOctober2021"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".main_screen.MainScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".sign_up.SignUpActivity"
             android:exported="false" />
         <activity

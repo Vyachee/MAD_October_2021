@@ -7,9 +7,14 @@
         <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/drawable/input_bg.xml" value="0.22763157894736843" />
         <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/drawable/orange_button.xml" value="0.22763157894736843" />
         <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/activity_main_screen.xml" value="0.2" />
         <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/activity_select_auth.xml" value="0.152" />
         <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/activity_sign_in.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/activity_sign_up.xml" value="0.152" />
+        <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/chat.xml" value="0.536" />
+        <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/fragment_chat.xml" value="0.2" />
+        <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/fragment_feed.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/layout/last.xml" value="0.4" />
         <entry key="..\:/Users/igore/AndroidStudioProjects/MADOctober2021/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25625" />
       </map>
     </option>

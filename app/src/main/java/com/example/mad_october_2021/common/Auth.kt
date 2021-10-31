@@ -1,0 +1,5 @@
+package com.example.mad_october_2021.common
+
+class Auth {
+    val token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NGY0NzU4Ni1mMWFjLTRiOWUtOGQwYS0yOGJlNmNlYjgyN2UiLCJpc3MiOiJodHRwOi8vMC4wLjAuMDo4MDgwIiwiZXhwIjoxNjM1Njg2NTk1LCJ1c2VyIjoiNTRmNDc1ODYtZjFhYy00YjllLThkMGEtMjhiZTZjZWI4MjdlIn0.IKlXOka_wjQXtuhvMz6E4sCniGE2beRluJDjyTZl_Eo"
+}
