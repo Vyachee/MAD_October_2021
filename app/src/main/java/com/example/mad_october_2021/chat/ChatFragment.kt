@@ -43,11 +43,13 @@ class ChatFragment : Fragment() {
                 try {
 
                     val stringResponse = response.body?.string()
+                    Log.d("DEBUG", "response: $stringResponse")
                     chats = Gson().fromJson(stringResponse, chats::class.java)
 
                     initChatsAdapter()
 
                 }   catch (e: Exception) {
+                    e.printStackTrace()
                     showError()
                 }
             }
@@ -80,8 +82,10 @@ class ChatFragment : Fragment() {
         val layoutManager = LinearLayoutManager(context)
         val adapter = context?.let { ChatsAdapter(chats, it) }
 
-        binding.rvChats.adapter = adapter
-        binding.rvChats.layoutManager = layoutManager
+        (context as MainScreenActivity).runOnUiThread {
+            binding.rvChats.adapter = adapter
+            binding.rvChats.layoutManager = layoutManager
+        }
 
     }
 
